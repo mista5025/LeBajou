@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>La Paradis by Juice</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="index.html"><img src="img/logo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="menu.html">Menu</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://m.blog.naver.com/PostView.nhn?blogId=happydaysky77&logNo=221398342839&proxyReferer=https%3A%2F%2Fl.instagram.com%2F" target="_blank">Blog</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="img/background1.jpg" style="width:100%;">
+			<div class="carousel-caption">
+					<h1 class="display-2">Le Bajou</h1>
+					<h3>Le Paradis by Juice</h3>
+					<!-- <a href="about.html" class="btn btn-outline-light btn-lg">About</a>
+					<a href="menu.html" class="btn btn-primary btn-lg">Our Menus</a> -->
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="img/background2.jpg" style="width:100%;">
+			<div class="carousel-caption">
+					<h1 class="display-2">Le Bajou</h1>
+					<h3>Le Paradis by Juice</h3>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="img/background3.jpg" style="width:100%;">
+			<div class="carousel-caption">
+					<h1 class="display-2">Le Bajou</h1>
+					<h3>Le Paradis by Juice</h3>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+	<div class="row Jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">음식과 디저트 맛은! 쉐프의 실력 보다는 <span style="font-weight:bold;">좋은 재료</span>가 먼저라고 생각합니다. <span style="font-weight:bold;">르.바.쥬</span>는 유기농으로 제배한 엄선된 재료로 맛은 물론 건강까지도 생각합니다.</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="about.html"><button type="button" class="btn btn-outline-secondary btn-lg">View more</button></a>
+		</div>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<!-- <div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-bacon"></i>
+			<h3>Organic</h3>
+			<p>Built with the latest version of HTML, HTML5</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<i class="fas fa-utensils"></i>
+			<h3>Brunch</h3>
+			<p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
+		</div>
+		<div class="col-sm-12 col-md-4">
+			<i class="fab fa-coffee"></i>
+			<h3>Brewing</h3>
+			<p>Built with the latest version of CSS, CSS3.</p>
+		</div>
+	</div>
+	<hr class="my-4">
+</div> -->
+
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+<!--- Menu -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Recommend</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/cacaonips.png">
+				<div class="card-body">
+					<h4 class="card-title">카카오닙스 브라우니</h4>
+					<p class="card-text">달달 쫀득 쫀득, 카카오닙스가 들어간 건강 브런치.</p>
+					<a href="menu.html" class="btn btn-outline-secondary">See More</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/applecinamon.png">
+				<div class="card-body">
+					<h4 class="card-title">애플 시나몬 파이</h4>
+					<p class="card-text">최고의 당도를 자랑하는 경북사과와 시나몬의 고장 스리랑카의 향기가 함께.</p>
+					<a href="menu.html" class="btn btn-outline-secondary">See More</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/strawberryptoast.png">
+				<div class="card-body">
+					<h4 class="card-title">스트로베리 피넛 토스트</h4>
+					<p class="card-text">고소한 피넛 버터와 달콤한 스트로베리로 향긋하고 맛있는 토스트.</p>
+					<a href="menu.html" class="btn btn-outline-secondary">See More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Connect</h1>
+		</div>
+		<hr>
+		<div class="col-12 social padding">
+			<a href="https://www.facebook.com/leparadisbyjuice/" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.instagram.com/leparadis7vintage/" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://m.blog.naver.com/PostView.nhn?blogId=happydaysky77&logNo=221398342839&proxyReferer=https%3A%2F%2Fl.instagram.com%2F" target="_blank"><i class="fab fa-blogger-b"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="img/logowhite.png">
+				<hr class="light">
+				<p>leparadis7vintage@gmail.com</p>
+				<p>경기도 시흥시</p>
+				<p>신천로 100번길 8-1</p>
+				<p>0507-1321-2782</p>
+			</div>
+
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Our hours</h5>
+				<hr class="light">
+				<p>Open: 11am - 매일공지</p>
+				<p>Last Order: 매일공지</p>
+				<p>르 바하지 바이 쥬스</p>
+			</div>
+
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Categories</h5>
+				<hr class="light">
+				<p><a href="about.html">About</a></p>
+				<p><a href="menu.html">Menu</a></p>
+				<p><a href="https://m.blog.naver.com/PostView.nhn?blogId=happydaysky77&logNo=221398342839&proxyReferer=https%3A%2F%2Fl.instagram.com%2F" target="_blank">Blog</a></p>
+				<p><a href="contact.html">Contact</a></p>
+			</div>
+
+			<div class="col-12">
+				<hr class="light-100">
+				<h6>&copy; 2019 Le Bajou. All rights Reserved.
+            Created by <a href="https://mista5025.github.io/portfolio/" target="_blank">Lawrence Bang</a></h6>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
